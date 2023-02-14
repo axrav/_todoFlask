@@ -1,0 +1,6 @@
+flask
+# async client for mongodb
+motor 
+bson
+# DOTENV loader
+python-dotenv
