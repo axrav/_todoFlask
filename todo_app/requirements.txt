@@ -4,3 +4,5 @@ motor
 pymongo
 # DOTENV loader
 python-dotenv
+# production server
+gunicorn
