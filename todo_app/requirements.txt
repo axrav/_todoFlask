@@ -1,6 +1,6 @@
 flask
 # async client for mongodb
 motor 
-bson
+pymongo
 # DOTENV loader
 python-dotenv
