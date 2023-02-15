@@ -8,7 +8,7 @@ A todo backend written in flask
 ### Run Locally on a Linux Machine
 ``` 
 git clone https://github.com/axrav/_todoFlask
-cd _todoFlask
+cd _todoFlask/todo_app
 vim .env # fill with your values look onto sample.env
 pip3 install -r requirements.txt
 python3 -m gunicorn app:app --bind 0.0.0.0:${PORT} --workers 4 
@@ -18,10 +18,10 @@ python3 -m gunicorn app:app --bind 0.0.0.0:${PORT} --workers 4
 ### Run using docker
 ```
 git clone https://github.com/axrav/_todoFlask
-cd _todoFlask
+cd _todoFlask/todo_app
 vim .env # fill with your values look onto sample.env
 docker image build -t todo_image .
-docker run -p {YOURPORT:YOURPORT} -d --name {name} -e PORT={YOURPORT} image_name
+docker run -p {YOURPORT:YOURPORT} -d --name {name} -e PORT={YOURPORT} todo_image
 ```
 
 ### Tools used
