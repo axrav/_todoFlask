@@ -1,7 +1,5 @@
 from flask import Flask
-import os
 from api_blueprint import api
-from gunicorn import glogging
 app = Flask(__name__)
 
 
