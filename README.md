@@ -6,7 +6,7 @@ A todo backend written in flask
 
 
 ### Run Locally on a Linux Machine
-``` 
+```console
 git clone https://github.com/axrav/_todoFlask
 cd _todoFlask/todo_app
 vim .env # fill with your values look onto sample.env
@@ -16,7 +16,7 @@ python3 -m gunicorn app:app --bind 0.0.0.0:${PORT} --workers 4
 ```
 
 ### Run using docker
-```
+```console
 git clone https://github.com/axrav/_todoFlask
 cd _todoFlask/todo_app
 vim .env # fill with your values look onto sample.env
@@ -25,7 +25,7 @@ docker run -p {YOURPORT:YOURPORT} -d --name {name} -e PORT={YOURPORT} todo_image
 ```
 
 ### Tools used
-- [Python3.10]("https://www.python.org/downloads/release/python-3100/")
-- [Mongodb]("https://www.mongodb.com/")
-- [Docker]("https://www.docker.com/")
-- [PIP]("https://pypi.org/project/pip/")
+- [Python3.10](https://www.python.org/downloads/release/python-3100/)
+- [Mongodb](https://www.mongodb.com/)
+- [Docker](https://www.docker.com/)
+- [PIP](https://pypi.org/project/pip/)
