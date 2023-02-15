@@ -21,7 +21,7 @@ git clone https://github.com/axrav/_todoFlask
 cd _todoFlask
 vim .env # fill with your values look onto sample.env
 docker image build -t todo_image .
-docker run -p {YOURPORT:YOURPORT} -d --name {name}
+docker run -p {YOURPORT:YOURPORT} -d --name {name} -e PORT={YOURPORT} image_name
 ```
 
 ### Tools used
